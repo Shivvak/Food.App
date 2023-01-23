@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <style>
+        #container{
+            background-color: burlywood;
+            padding: 24px;
+            margin-top: 0;
+            position: sticky;
+            top: 0px;
+
+        }
+        span :hover{
+            background-color: wheat;
+            border-radius: 28px;
+
+            
+        }
+
+        
+        #menu {
+            color: black;
+            padding: 24px;
+            font-weight: 600;
+            font-size: 24px;
+
+        }
+
+        .food-image{
+            width: 450px;
+            height: 400px;
+            border-radius: 8px;
+        }
+        .food-wrapper{
+            text-align: center;
+
+        }   
+        p{
+            font-size: 16px;
+            color: blue;
+        }
+    </style>
+</head>
+<body style="background-color: wheat; margin: 0; ">  
+<div id="container">
+<span><a id="menu">Home</a></span>
+<span><a id="menu">Food</a></span>
+<span><a id="menu">About</a></span>
+<span><a id="menu">Contact Us</a></span>
+<span><a id="menu">Help</a></span>
+
+</div>
+<h1>Top Favourites Dishes</h1>
+<div>
+<ul>
+<li id="list"><a href="#biryani">Biryani</a></li>
+<li id="list"><a href="#pizza">Pizza</a></li>
+<li id="list"><a href="#Burger">Burger</a></li>
+<li id="list"> <a href="#Caesar">Caesar Salad</a></li>
+</ul>
+</div>
+<div class="food-wrapper">
+      <img  id="biryani" class="food-image" src="https://c.ndtvimg.com/2022-07/i0no1ph_mutton-biryani_625x300_19_July_22.png">
+      <p>Biryani</p>
+      <img  id="pizza" class="food-image" src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80">
+      <p>Pizza</p>
+      <img  id="Burger" class="food-image" src="https://c.ndtvimg.com/2022-06/gp4k2jro_burgers_625x300_20_June_22.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350">
+      <p>Burger</p>
+      <img  id="Caesar" class="food-image" src="https://www.seriouseats.com/thmb/CI40mF5sQEuUr1voWRdbA2bjscs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-06-40e70f549ba2489db09355abd62f79a9.jpg">
+      <p>Caesar Salad</p>
+    
+</div>
+
+</body>
+</html>
